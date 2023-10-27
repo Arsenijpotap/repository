@@ -1,5 +1,6 @@
 a = "<>";
 
+//test1
 var h = {
   function: [
     "<div class='butt'></div>",
