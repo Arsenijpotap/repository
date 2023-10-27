@@ -1,0 +1,175 @@
+.butt {
+  color: whitesmoke;
+  font-size: 50px;
+  background-color:none;
+  backdrop-filter: blur(5px);
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: solid 3px midnightblue;
+  width: 70px;
+  height: 70px;
+  margin: 1px;
+  transition: 0.3s; 
+}
+.klv {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+}
+.str {
+  display: flex;
+  align-items: center;
+}
+
+
+.butt-q {
+  color: whitesmoke;
+  font-size: 50px;
+  background-color:none;
+  backdrop-filter: blur(5px);
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: solid 3px midnightblue;
+  width: 360px;
+  height: 70px;
+  margin: 1px;
+  transition: 0.3s; 
+}
+
+.text1 {
+  color: whitesmoke;
+  transition: 0.3s; 
+}
+.text2 {
+  color: red;
+  font-size: 60px;
+  font-family: "Kanit", sans-serif;
+  transition: 0.3s; 
+}
+.prg {
+  display: flex;
+  font-size: 60px;
+  font-family: "Kanit", sans-serif;
+}
+.text3 {
+  display: none;
+  color: red;
+  font-size: 60px;
+  font-family: "Kanit", sans-serif;
+  transition: 0.3s; 
+}
+.fone {
+  background-image: url(fone.jpg);
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  
+  
+}
+.menu-ul{
+display: flex;
+justify-content: space-between;
+width: 600px;
+
+
+}
+
+.menu-li{
+
+
+}
+.header{display: flex;
+  justify-content: center;
+
+}
+.menu-a{
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  transition: 0.6s;
+
+}
+.menu-a:hover{
+  text-decoration: none;
+  list-style: none;
+  color: palegreen;
+  position: relative;
+  
+  transform:scale(2,2);
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  
+
+}
+.keyboard{display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;}
+
+
+.conteiner{
+
+}
+#butt{
+  
+  font-size: 50px;
+  background-color:midnightblue ;
+  color: whitesmoke;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: solid 5px whitesmoke;
+  padding: 10px 20px;
+  transition: 0.3s; 
+
+}
+#butt:hover{
+  
+  font-size: 50px;
+  background-color:whitesmoke ;
+  color: midnightblue;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: solid 5px whitesmoke ;
+  padding: 10px 20px;
+  transition: 0.3s; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+echo "# repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Arsenijpotap/repository.git
+git push -u origin main
